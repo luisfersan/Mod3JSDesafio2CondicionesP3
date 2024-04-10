@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 2 JS - Condiciones Verificvacor de Contraseña</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />    <!-- Archivo CSS para estilos -->
+  </head>
+  <body>
+    <!-- Encabezado de la página -->
+    <h1>Verificador de Contraseña</h1>
+
+    <!-- Selector para la primera parte del password -->
+    <label for="password1">Primer Dígito:</label>
+    <select id="password1">
+        <!-- Opciones del 1 al 9 -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <!-- Selector para la segunda parte del password -->
+    <label for="password2">Segundo Dígito:</label>
+    <select id="password2">
+        <!-- Opciones del 1 al 9 -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <!-- Selector para la tercera parte del password -->
+    <label for="password3">Tercer Dígito:</label>
+    <select id="password3">
+        <!-- Opciones del 1 al 9 -->
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+    </select>
+
+    <!-- Botón para verificar la selección -->
+    <button onclick="verificarSeleccion()">Verificar</button>
+
+    <!-- Párrafo para mostrar el resultado -->
+    <p id="resultado"></p>
+
+    <!-- Enlace al archivo JavaScript -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
